@@ -7,27 +7,15 @@
     "cryptography",
     "crypto",
     "coin",
-    "bitcoin",
-    "bitcoin gold",
-    "litecoin",
-    "viacoin",
-    "elliptic",
-    "curve",
-    "dogecoin",
-    "blackcoin",
-    "namecoin",
-    "dash",
-    "monacoin",
-    "zcash",
-    "vertcoin",
-    "qtum"
+    "ravencoin",
+    "rvn"
   ],
   "devDependencies": {
     "standard": "*",
     "tape": "^4.8.0"
   },
   "repository": {
-    "url": "https://github.com/cryptocoinjs/coininfo",
+    "url": "https://github.com/raven-community/coininfo",
     "type": "git"
   },
   "main": "./lib/coininfo.js",

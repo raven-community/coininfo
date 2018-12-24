@@ -38,23 +38,23 @@ var litecoinTest = coininfo.litecoin.test
 Useful to use in conjunction with [coinkey](https://github.com/cryptocoinjs/coinkey) and [coinstring](https://github.com/cryptocoinjs/coinstring).
 
 
-Want to Use With Bitcore or bitconjs-lib?
+Want to Use With Ravencore or ravencoinjs-lib?
 -----------------------------------------
 
-**bitcoinjs-lib example:**
+**ravencoinjs-lib example:**
 
 ```js
 var coininfo = require('coininfo')
-var bitcoin = coininfo.bitcoin.main
-var bitcoinBitcoinJSLib = bitcoin.toBitcoinJS()
+var ravencoin = coininfo.ravencoin.main
+var RavencoinJSLib = ravencoin.toRavencoinJS()
 ```
 
-**Bitcore example:**
+**Ravencore example:**
 
 ```js
 var coininfo = require('coininfo')
-var bitcoin = coininfo.bitcoin.main
-var bitcoinBitcoreLib = bitcoin.toBitcore()
+var ravencoin = coininfo.ravencoin.main
+var RavencoreLib = ravencoin.toRavencore()
 ```
 
 
@@ -63,7 +63,7 @@ Pull requests?
 
 Follow the canonical example:
 
-https://github.com/cryptocoinjs/coininfo/blob/master/lib/coins/btc.js
+https://github.com/raven-community/coininfo/blob/master/lib/coins/rvn.js
 
 
 License
